@@ -1,0 +1,190 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(images/slider-bg49.jpg);
+    background-size: cover;
+    font-family: 'Louis George Cafe', sans-serif;
+}
+
+/* header */
+
+.header-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    padding: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+header nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.content
+{
+    margin: 0 auto;
+}
+
+.logo
+{
+    width: 136px;
+    height: 40px;
+    padding: 20px 30px;
+}
+
+.social-media-icon
+{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+
+.social-media-icon a
+{
+    margin: 0 10px;
+}
+
+.header-group
+{
+    
+    color: rgba(255, 255, 255, 1);
+    height: 720px;
+}
+
+.caption
+{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+.caption-2
+{
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 300;
+    width: 500px;
+}
+
+.caption-group
+{
+    margin-left: 700px;
+    margin-top: 250px;
+}
+
+/* my specialties section */
+
+.specialties-container
+{
+    background-color: #F7EFF1;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.specialties-name
+{
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.specialties-description
+{
+    width: 750px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.figure
+{
+    max-width: 350px;
+    height: 325px;
+    background-color: white;
+    margin: 15px;
+}
+
+.figure img
+{
+    max-width: 100%;
+    border-radius: 4px;
+    height: auto;
+}
+
+.figures
+{
+    display: flex;
+}
+
+figure figcaption
+{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+/* my featured work section */
+
+.featured-container
+{
+    background-color: rgb(246,247,250);
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.featured-name
+{
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.featured-description
+{
+    width: 500px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* gallery */
+
+.gallery-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px 200px;
+}
+
+.gallery-item
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item img
+{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
