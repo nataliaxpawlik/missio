@@ -1,3 +1,13 @@
+@media (max-width: 414px)
+{
+
+.specialties-description 
+{
+    font-size: 10px;
+}
+
+}
+
 body
 {
     padding: 0;
@@ -12,7 +22,7 @@ body
 
 /* header */
 
-.header-container
+.header-content
 {
     display: flex;
     justify-content: space-between;
@@ -48,19 +58,19 @@ header nav ul
     padding: 20px 30px;
 }
 
-.social-media-icon
+.social-media-list
 {
     list-style: none;
     display: flex;
     padding: 20px;
 }
 
-.social-media-icon a
+.social-media-list a
 {
     margin: 0 10px;
 }
 
-.header-group
+.header
 {
     
     color: rgba(255, 255, 255, 1);
@@ -74,7 +84,7 @@ header nav ul
     font-weight: 700;
 }
 
-.caption-2
+.caption-sub
 {
     font-size: 26px;
     line-height: 36px;
@@ -82,7 +92,7 @@ header nav ul
     width: 550px;
 }
 
-.caption-group
+.header-caption
 {
     margin-left: 700px;
     margin-top: 250px;
@@ -95,7 +105,7 @@ header nav ul
 
 /* my specialties section */
 
-.specialties-container
+.section-specialties
 {
     background-color: #F7EFF1;
     height: 720px;
@@ -105,7 +115,7 @@ header nav ul
     
 }
 
-.specialties-name
+.title-specialties
 {
     margin: 0;
     padding-top: 100px;
@@ -113,7 +123,7 @@ header nav ul
     font-size: 15px;
 }
 
-.specialties-description
+.description-specialties
 {
     width: 750px;
     font-size: 24px;
@@ -122,7 +132,7 @@ header nav ul
     margin-bottom: 40px;
 }
 
-.figure
+.figure-specialties
 {
     max-width: 350px;
     height: 325px;
@@ -130,14 +140,14 @@ header nav ul
     margin: 15px;
 }
 
-.figure img
+.figure-specialties img
 {
     max-width: 100%;
     border-radius: 4px;
     height: auto;
 }
 
-.figures
+.gallery-specialties
 {
     display: flex;
 }
@@ -151,7 +161,7 @@ figure figcaption
 
 /* my featured work section */
 
-.featured-container
+.section-featured
 {
     background-color: rgb(246,247,250);
     height: auto;
@@ -160,7 +170,7 @@ figure figcaption
     flex-direction: column;
 }
 
-.featured-name
+.title-featured
 {
     margin: 0;
     padding-top: 100px;
@@ -168,7 +178,7 @@ figure figcaption
     font-size: 15px;
 }
 
-.featured-description
+.description-featured
 {
     width: 500px;
     font-size: 24px;
@@ -178,7 +188,7 @@ figure figcaption
 
 /* gallery */
 
-.gallery-container
+.gallery-featured
 {
     columns: 3 200px;
     column-gap: 1.5rem;
@@ -207,7 +217,7 @@ figure figcaption
 
 /* work with me */
 
-.work-with-me-container
+.section-work-with-me
 {
     background-color: #F7EFF1;
     height: 400px;
@@ -216,7 +226,7 @@ figure figcaption
     flex-direction: column;
 }
 
-.work-with-me-name
+.title-work-with-me
 {
     margin: 0;
     padding-top: 100px;
@@ -224,7 +234,7 @@ figure figcaption
     font-size: 15px;
 }
 
-.work-with-me-description
+.description-work-with-me
 {
     width: 800px;
     font-size: 24px;
@@ -242,7 +252,7 @@ figure figcaption
     height: 275px;
 }
 
-.footer-group
+.footer-content
 {
     columns: 3 200px;
     display: flex;
@@ -251,7 +261,7 @@ figure figcaption
     margin-bottom: 30px;
 }
 
-.footer-item-title
+.footer-title
 {
     margin-top: 50px;
     width: 100%;
@@ -262,14 +272,14 @@ figure figcaption
     font-size: 17px;
 }
 
-.footer-item-content
+.footer-description
 {
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
-.social-media-icon-down
+.footer-social-media-list
 {
     list-style: none;
     display: flex;
@@ -279,12 +289,13 @@ figure figcaption
 
 }
 
-.social-media-icon-down a
+.footer-social-media-list a
 {
     padding: 0 10px;
 }
 
-.footer-item-container
+.footer-item
 {
     width: 325px;
 }
+
