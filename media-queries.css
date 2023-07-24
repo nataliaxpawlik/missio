@@ -1,3 +1,5 @@
+/* for mobile (portrait) ---> */
+
 @media (max-width: 414px) {
   .caption {
     font-size: 25px;
@@ -61,6 +63,24 @@
   .footer-copyright {
     padding: 10px 0 50px 0;
   }
+}
 
-  /* <--- footer */
+/* for mobile (landscape) ---> */
+
+@media (max-with: 769px) {
+}
+
+/* for tablet (portrait) ---> */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* for tablet (landscape) ---> */
+
+@media (min-width: 1025px) {
+}
+
+/* for laptop ---> */
+
+@media (min-width: 1025px) {
 }
