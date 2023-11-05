@@ -188,7 +188,12 @@ figure figcaption {
 }
 
 .gallery-item::before {
-  content: "";
+  content: "TYTUŁ SESJI";
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
   position: absolute;
   margin: 0;
   padding: 0;
