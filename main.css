@@ -284,3 +284,10 @@ figure figcaption {
   padding: 20px 0 50px 0;
   height: auto;
 }
+
+.info {
+  display: flex;
+  align-items: right;
+  width: 5px;
+  height: 5px;
+}
